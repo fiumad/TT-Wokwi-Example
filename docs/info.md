@@ -8,13 +8,14 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
-
+1. Set the flip switch to the on position.
+2. Wait for the rising edge of the clock signal.
+3. The state of the LED will toggle.
+4. Turn the flip switch off.
+5. The LED will remain in the last state it was in.
 ## How to test
 
-Explain how to use your project
+Follow the How it works section.
 
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A single LED should be connected to output 0.
